@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.clock .point{position: absolute;left: 50%;top: 50%;width: 2px;height: 2px;border-radius: 50%;background: #000;
+transform: translate(-50%,-50%);}
+.clock .scale{position: absolute;left: 50%;top: 2px;width: 1px;height: 4px;background: #85b8e5;transform-origin: 50% 31px;}
+.clock .scale2{position: absolute;left: 50%;top: 2px;width: 1px;height: 6px;background: #d5e7f6;transform-origin: 50% 31px;}
+.hours{
+	display: inline-block;
+	position: absolute;
+	left: 83px;
+	top: 39px;
+/*	margin-left: -2px;*/
+	width: 2.8px;
+	height: 24px;
+	background: #ffffff;
+	transform-origin: 50% 15px;
+}
+.minutes{
+	display: inline-block;
+	position: absolute;
+	left: 85px;
+	top: 30px;
+	width: 1.8px;
+	height: 30px;
+	background: #ffffff;
+	transform-origin: 50% 22px;
+}
+.seconds{
+	display: inline-block;
+	position: absolute;
+	left: 85px;
+	top: 28px;
+	width: 1px;
+	height: 33px;
+	background: #9c5b77;
+	transform-origin: 50% 23px;
+}

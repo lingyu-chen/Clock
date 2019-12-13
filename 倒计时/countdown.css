@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.count-bg{
+	width: 600px;
+	height: 100px;
+	font-size: 20px;
+	background: linear-gradient( to bottom,#1953cd,#1989cb,#6fc5e3);
+}
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: '微软雅黑';font-size: 13px;}
+.clock{
+	position: relative;
+			width: 539px;
+			height: 100px;
+			background: linear-gradient(to bottom,#076cc2,#68a7e0);
+		}
+.clockPic{
+	position: absolute;
+	left: 51px;
+	top: 18px;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	/*border: 1px black solid;*/
+	
+}
+		.hourMinute{
+			float: left;
+			margin: 27px 0 0 139px;
+			width: 143px;
+			height: 47px;
+			color: #fff;
+			font-size: 47px;
+			line-height: 1;
+		}
+		.second{
+			float: left;
+			margin-top: 44px;
+			/*margin-left: 11px;*/
+			width: 40px;
+			height: 27px;
+			color: #fff;
+			font-size: 27px;
+			line-height: 1;
+		}
+		.date{
+			float: left;
+			margin: 27px 0 0 36px;
+			width: 112px;
+			height: 52px;
+			color: #fff;
+		}
+		.day{
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.yearMouthDay{
+/*			font-size: 13px;*/
+			line-height: 22px;
+		}
